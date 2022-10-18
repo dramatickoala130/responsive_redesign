@@ -1,0 +1,122 @@
+body {
+	
+    background-image: linear-gradient(180deg, rgb(154, 206, 255), rgb(148, 253, 246), rgb(148, 253, 165), rgb(244, 253, 148), rgb(253, 148, 206));
+}
+
+.navbar {
+    position: fixed;
+    background-color: rgb(28, 22, 22);
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    font-family: "Palatino", serif;
+    }
+  
+  .navbar h1, 
+  .navbar p {
+      margin:0px;
+      display: inline-block;
+      vertical-align: top;
+      color:rgb(255, 255, 255);
+      line-height: 35px;
+  }
+  .navbar h1 {
+      font-weight: bold;
+      background: rgb(28, 22, 22);
+      font-size: 30px;
+      padding: .75em 0 0 1em;
+      float: left;
+  }
+  
+  .navbar p{
+    text-align: right;
+    vertical-align: bottom;
+    padding:2em 1em 0em;
+    background:  rgb(28, 22, 22);
+    float: right;
+    font-size: 18px;
+  }
+
+#firstbar {
+    margin: 6rem 9% 0 9%;
+} 
+
+.headers {
+    font-family: "Palatino", serif;
+    font-size: 19px;
+    color: #ffffff;
+    text-align: center;
+    background:#392929;
+    padding: 2px 7px 2px 7px;
+    border-radius: .5rem;
+    margin: 0% 9% 0 9%;
+}
+
+.text {
+    font-family: "Palatino", serif;
+    font-size: 1.65vw;
+    color: black;
+    margin: 1% 9% 4% 9%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1% 2% 1% 2%;
+    line-height: 2.25rem;
+}
+
+#intro {
+    text-align: center;
+    font-size: 2vw;
+} 
+
+#single {
+    text-align: center;
+    font-size: 23px;
+}
+
+img{
+    border: 4px solid #555;
+    align-items: center;
+}
+
+#website{
+    display: flex;
+    align-items: center;
+}
+
+#website img{
+    margin: 1% 0 0 .5%;
+    height: 40%;
+    width:  40%;
+}
+
+#website p{
+    padding: 0 5% 0 5%;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.lowfi{
+    display: flex;
+    align-items: center;
+}
+
+.lowfi img{
+    margin: 1% 0 0 .5%;
+    height: 50%;
+    width:  50%;
+}
+
+.lowfi p{
+    padding: 0 5% 0 5%;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+
+  .two_levels {
+    display: float;
+  }
